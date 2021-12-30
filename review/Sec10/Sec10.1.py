@@ -14,11 +14,14 @@ def generator_function(num):
     for i in range(num):
         yield i * 2
 
-
+# range la generator
+# list la interable
 # for item in generator_function(10):
 #     print(item)
+#To create a generator in python, we use def, for, range and YIELD
 
-g = generator_function(2)
+g = generator_function(100)
 next(g)
-# next(g)
+next(g)
+print(next(g))
 print(next(g))
